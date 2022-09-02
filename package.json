@@ -9,10 +9,23 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.37"
+    "axios": "^0.27.2",
+    "element-plus": "^2.2.15",
+    "sass": "^1.54.8",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.5",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.2",
     "@vitejs/plugin-vue": "^3.0.3",
-    "vite": "^3.0.7"
+    "rollup-plugin-visualizer": "^5.8.0",
+    "unplugin-auto-import": "^0.11.2",
+    "unplugin-vue-components": "^0.22.4",
+    "vite": "^3.0.7",
+    "vite-plugin-chunk-split": "^0.2.7",
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-progress": "^0.0.3",
+    "vite-plugin-remove-console": "^1.1.0"
   }
 }
