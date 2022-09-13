@@ -25,7 +25,9 @@
     "vite": "^3.0.7",
     "vite-plugin-chunk-split": "^0.2.7",
     "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-pages": "^0.26.0",
     "vite-plugin-progress": "^0.0.3",
-    "vite-plugin-remove-console": "^1.1.0"
+    "vite-plugin-remove-console": "^1.1.0",
+    "vite-plugin-vue-layouts": "^0.7.0"
   }
 }

@@ -6,6 +6,8 @@ import vue from '@vitejs/plugin-vue'
 
 // Element-plus
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
+import AutoImport from 'unplugin-auto-import/vite'
+import Components from 'unplugin-vue-components/vite'
 
 // Rollup plugins
 import { visualizer } from 'rollup-plugin-visualizer'
@@ -13,8 +15,8 @@ import rollupCommonjs from '@rollup/plugin-commonjs'
 
 // Vite plugins
 import { chunkSplitPlugin } from 'vite-plugin-chunk-split'
-import AutoImport from 'unplugin-auto-import/vite'
-import Components from 'unplugin-vue-components/vite'
+import Layouts from 'vite-plugin-vue-layouts'
+import Pages from 'vite-plugin-pages'
 import Progress from 'vite-plugin-progress'
 import removeConsole from 'vite-plugin-remove-console'
 import viteCompression from 'vite-plugin-compression'
@@ -42,6 +44,8 @@ export default defineConfig({
     Components({
       resolvers: [ElementPlusResolver()]
     }),
+    Layouts(),
+    Pages(),
     Progress(),
     removeConsole(),
     viteCompression(),
