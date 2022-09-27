@@ -8,8 +8,6 @@ export default {
   },
   host: HOST,
   server: {
-    hmr: {
-      
-    }
+    hmr: {}
   }
 }
